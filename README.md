@@ -44,3 +44,26 @@ For example, if the number was 3, the smallest multiple from 1 to 3 is 6.
 
 Performs checks on valid user input.  If the input is not valid, an error message is displayed.
 
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Google Fonts and Bootstrap 5.1.3.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-005) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+
