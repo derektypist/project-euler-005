@@ -15,3 +15,34 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to Return the Smallest Positive Integer that is
+    evenly divisible (divisible with no remainder) by all of the numbers
+    from 1 to n.
+    smallestMult(5) returns 60.
+    smallestMult(10) returns 2520.
+*/
+function smallestMult(n) {
+    let g=1;
+    for (let i=1;i<=n;i++) {
+        g = lcm(g,i);
+    }
+    return g;
+}
+
+// Function to Calculate the Greatest Common Divisor (GCD)
+function gcd(x,y) {
+    return y==0 ? x : gcd(y,x%y);
+}
+
+// Function to Calculate the Least Common Multiple (LCM)
+function lcm(x,y) {
+    return Math.floor((x*y)/gcd(x,y));
+}
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("numinfo").innerHTML = txt;
+}
